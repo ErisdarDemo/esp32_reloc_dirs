@@ -1,0 +1,28 @@
+@brief      feature_request
+@details    Customization of build\ directory name
+@auth       Justin Reina
+@date       3/15/25
+
+
+@section    Summary
+	
+	Modifications to the cmake build directory are normally performed with
+	
+	cmake -B buildDirName
+
+	Currently this is set to 'build\' for Espressif IDE
+	
+@section 	Research
+
+	forum.esp32.com - "How to relocate or rename main\ & build\ directories"
+
+	@url 	http://forum.esp32.com/viewtopic.php?f=13&t=44878&p=145599&sid=6dd9cdff8438d80d629595f7fdc51edc#p145599
+
+	Test Project - esp32_reloc_dirs 'r1'
+
+	@url	https://github.com/ErisdarDemo/esp32_reloc_dirs
+
+@section 	Request
+
+	Can we have the option to rename the 'build\' directory for our projects?
+

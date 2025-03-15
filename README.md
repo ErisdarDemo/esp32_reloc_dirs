@@ -48,3 +48,9 @@ But ESP-IDF still leaves a build dir, no matter what
 ### Mitigation
 
 Compile project as normal with build\ at root, then manually relocate for storage if needed
+
+## My Result
+
+1. Rename main\
+
+2. Hide build\ from the IDE (Project Explorer -> Filters and Customization -> User Filters -> New) & File Explorer
