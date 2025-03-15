@@ -23,4 +23,12 @@ The build system provides special treatment to the main component. It is a compo
 
 2. Set EXTRA_COMPONENT_DIRS in the project CMakeLists.txt to include the renamed main directory
 
+	a. Locate the Project CMakeLists.txt at the root
+	
+	b. create(set) or append(list) to EXTRA_COMPONENT_DIRS
+	
+	 set(EXTRA_COMPONENT_DIRS ${CMAKE_CURRENT_LIST_DIR}/Core)
+
 3. Specify the dependencies in the renamed component's CMakeLists.txt file via REQUIRES or PRIV_REQUIRES arguments on component registration
+
+	x
